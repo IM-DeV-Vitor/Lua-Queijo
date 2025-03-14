@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 40px;
+    background-image: url("Assets/ceu-estrelado.jpg");
+    background-repeat: repeat-x;
+    min-height: 150px;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    font-family: "Quicksand";
+}
+
+h2 {
+    font:  bolder 2em "Bebas Neue";
+}
+
+p {
+    font: normal 1.15em Arial;
+    margin: 0px 15px;
+    text-indent: 15px;
+}
+
+.paragrafo-principal {
+    margin-top: 30px;
+}
+
+.rato-queijo {
+    display: block;
+    width: 350px;
+    height:475px;
+    margin: auto;
+}
+
+.artigop {
+    background-color: rgb(9, 9, 67);
+    color: white;
+    padding: 60px;
+}
+
+.container-img {
+    margin: 40px;
+}
+
+article {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.09);
+    text-align: justify;
+}
+
+section {
+    margin: 40px;
+    padding: 60px;
+}
+
+a {
+    color: rgb(0, 0, 113);
+    text-decoration: none;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: black;
+    background-color: gray;
+    text-decoration: underline;
+}
+
+#prop {
+    color: black;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+#prop:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
